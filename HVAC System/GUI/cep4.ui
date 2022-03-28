@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>select_win</class>
+ <widget class="QMainWindow" name="select_win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>529</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>529</width>
+    <height>369</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>529</width>
+    <height>369</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(41, 48, 54, 255), stop:1 rgba(101, 91, 76, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="next">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;
+font:  &quot;Tahoma&quot;;
+color:black;</string>
+    </property>
+    <property name="text">
+     <string>NEXT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="textcity">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>140</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;
+font: 10pt &quot;Tahoma&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Please Select whoose load you want to Calculate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>30</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;
+font: 28pt &quot;Tahoma&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>WEC CLTD</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Selection">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>190</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;
+font:  &quot;Tahoma&quot;;
+color:black;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Door</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Appliances</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Walls</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Window</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Roof</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
